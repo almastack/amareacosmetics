@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router";
 
-
 function Footer() {
   return (
-    <footer className="bg-neutral-900 text-white py-16">
+    <footer className="bg-neutral-800 text-white py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
             <h3
-              className="text-2xl font-light mb-4"
-              style={{ color: "#D7C6E6" }}
+              className="text-2xl font-light mb-4 text-primary"
             >
               AMAREA COSMETICS
             </h3>
@@ -87,7 +85,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <Link to="/docs"  className="hover:text-white transition">
+                <Link to="/docs" className="hover:text-white transition">
                   Documentazione
                 </Link>
               </li>
@@ -95,6 +93,10 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-neutral-800 pt-8 text-center font-sans text-sm text-neutral-500">
+          <div className="flex justify-center gap-6 mb-4">
+            <Link to="privacy-policy">Privacy Policy</Link>
+            <Link to="terms-conditions">Termini e Condizioni D'uso</Link>
+          </div>
           <p>© 2025 Amarea Cosmetics. Tutti i diritti riservati.</p>
         </div>
       </div>

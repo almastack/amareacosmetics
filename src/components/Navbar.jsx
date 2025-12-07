@@ -6,12 +6,11 @@ function Navbar() {
   const isDocumentazione = location.pathname === "/docs";
 
   return (
-    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-neutral-200">
+    <nav className="fixed top-0 w-full bg-bg backdrop-blur-sm z-50 border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link
           to="/"
-          className="text-xl flex-1 font-light tracking-wider"
-          style={{ color: "#D7C6E6" }}
+          className="text-xl flex-1 font-light tracking-wider text-primary"
         >
           AMAREA COSMETICS
         </Link>
@@ -31,8 +30,7 @@ function Navbar() {
 
         <div className="flex-1 text-right">
           <button
-            className="px-6 py-2 text-sm tracking-wide text-white transition hover:opacity-90"
-            style={{ backgroundColor: "#D7C6E6" }}
+            className="px-6 py-2 text-sm tracking-wide text-white transition hover:opacity-90 bg-primary rounded-full"
           >
             CONTATTACI
           </button>
