@@ -1,5 +1,18 @@
 import React, { useState } from "react";
-import { Star, Sparkles, Leaf, Heart } from "lucide-react";
+import {
+  Star,
+  FlaskConical,
+  Sparkles,
+  Leaf,
+  PawPrint,
+  Recycle,
+} from "lucide-react";
+import heroBg from "../assets/images/pexels-yaroslav-shuraev-8514588.jpg";
+import beach from "../assets/images/spiaggia-portonovo.jpg";
+import faceCream from "../assets/images/face-cream.png";
+import chapStick from "../assets/images/chapstick.jpg";
+import creamJar from "../assets/images/cream-jar.jpg";
+import upCycle from "../assets/images/upcycle.png";
 
 export default function Homepage() {
   const [email, setEmail] = useState("");
@@ -14,11 +27,12 @@ export default function Homepage() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center bg-secondary py-32 md:py-20"
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center py-32 md:py-20 text-white"
+        style={{ backgroundImage: `url(${heroBg})` }}
       >
         <div className="absolute inset-0 opacity-20">
           <div
-            className="absolute inset-0"
+            className="absolute inset-0 text-amber-600"
             style={{
               backgroundImage:
                 "radial-gradient(circle at 20% 50%, #D7C6E6 0%, transparent 50%), radial-gradient(circle at 80% 80%, #E8DFF5 0%, transparent 50%)",
@@ -30,18 +44,18 @@ export default function Homepage() {
           <div className="mb-8">
             <Sparkles className="w-10 sm:w-12 h-10 sm:h-12 mx-auto mb-4 text-primary" />
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light mb-8 text-neutral-800 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light mb-8 leading-tight">
             Bellezza
             <br />
             <span>Naturale</span>
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-neutral-600 mb-12 font-sans max-w-2xl mx-auto leading-relaxed px-4">
-            Cosmetici di lusso formulati con ingredienti naturali per esaltare
-            la tua bellezza autentica
+          <p className="text-base sm:text-lg md:text-xl mb-12 font-sans max-w-2xl mx-auto leading-relaxed px-4">
+            Cosmetici etici e naturali, pensati per il benessere della tua
+            pelle.
           </p>
-          <button className="px-8 sm:px-10 py-3 sm:py-4 text-white text-sm tracking-widest hover:opacity-90 transition rounded-full bg-primary">
+          {/* <button className="px-8 sm:px-10 py-3 sm:py-4 text-white text-sm tracking-widest hover:opacity-90 transition rounded-full bg-primary">
             SCOPRI LA COLLEZIONE
-          </button>
+          </button> */}
         </div>
       </section>
 
@@ -97,7 +111,7 @@ export default function Homepage() {
             </h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
             <div className="text-center px-4">
               <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
                 <Leaf className="w-7 h-7 md:w-8 md:h-8 text-white" />
@@ -113,27 +127,41 @@ export default function Homepage() {
 
             <div className="text-center px-4">
               <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
-                <Heart className="w-7 h-7 md:w-8 md:h-8 text-white" />
+                <PawPrint className="w-7 h-7 md:w-8 md:h-8 text-white" />
               </div>
               <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
                 Cruelty Free
               </h3>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
-                Tutti i nostri prodotti sono certificati cruelty-free e vegani.
-                Bellezza senza compromessi etici.
+                Tutti i nostri prodotti sono certificati cruelty-free. Bellezza
+                senza compromessi etici.
               </p>
             </div>
 
             <div className="text-center px-4 sm:col-span-2 md:col-span-1">
               <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
-                <Star className="w-7 h-7 md:w-8 md:h-8 text-white" />
+                <FlaskConical className="w-7 h-7 md:w-8 md:h-8 text-white" />
               </div>
               <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
                 Qualità Premium
               </h3>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
-                Formulazioni innovative sviluppate da esperti dermatologi per
-                risultati visibili e duraturi.
+                Formulazioni naturali e innovative, frutto di ricerca
+                scientifica, per risultati visibili e rispettosi della pelle.
+              </p>
+            </div>
+
+            <div className="text-center px-4">
+              <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
+                <Recycle className="w-7 h-7 md:w-8 md:h-8 text-white" />
+                {/* <img src={upCycle} className="w-7 h-7 md:w-8 md:h-8 text-white" alt="" /> */}
+              </div>
+              <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
+                Upcycling
+              </h3>
+              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
+                Trasformiamo i materiali di scarto in nuove risorse.
+                Sostenibilità senza sprechi.
               </p>
             </div>
           </div>
@@ -155,23 +183,29 @@ export default function Homepage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
-                name: "Siero Viso Illuminante",
-                desc: "Siero concentrato con vitamina C",
+                name: "Sibilla",
+                desc: "La nostra crema antiage che aiuta a contrastare i segni del tempo",
+                img: faceCream,
               },
               {
-                name: "Crema Idratante Luxury",
-                desc: "Formula ricca con acido ialuronico",
+                name: "Riviera",
+                desc: "Un burro di cacao nutriente che idrata e protegge le labbra",
+                img: chapStick,
               },
               {
-                name: "Maschera Purificante",
-                desc: "Argilla rosa e oli essenziali",
+                name: "Catria",
+                desc: "una crema idratante che nutre e mantiene la pelle morbida",
+                img: creamJar,
               },
             ].map((product, idx) => (
               <div key={idx} className="group cursor-pointer">
-                <div className="aspect-square bg-gradient-to-br from-neutral-100 to-neutral-200 mb-4 rounded-lg overflow-hidden relative">
+                <div
+                  className="aspect-square bg-center bg-cover from-neutral-100 to-neutral-200 mb-4 rounded-lg overflow-hidden relative"
+                  style={{ backgroundImage: `url(${product.img})` }}
+                >
                   <div
                     className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    style={{ backgroundColor: "rgba(215, 198, 230, 0.9)" }}
+                    style={{ backgroundImage: "rgba(215, 198, 230, 0.9)" }}
                   >
                     <span className="text-white text-sm tracking-wide">
                       PROSSIMAMENTE
@@ -188,11 +222,11 @@ export default function Homepage() {
             ))}
           </div>
 
-          <div className="text-center mt-10 md:mt-12">
+          {/* <div className="text-center mt-10 md:mt-12">
             <button className="px-8 sm:px-10 py-3 sm:py-4 text-white text-sm tracking-widest hover:opacity-90 transition rounded-full bg-primary">
               SCOPRI DI PIÙ
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -200,7 +234,10 @@ export default function Homepage() {
       <section id="about" className="py-16 md:py-24 bg-secondary">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="aspect-square bg-gradient-to-br from-neutral-200 to-neutral-300 rounded-lg order-2 md:order-1"></div>
+            <div
+              className="aspect-square from-neutral-200 to-neutral-300 rounded-lg order-2 md:order-1 bg-center bg-cover"
+              style={{ backgroundImage: `url(${beach})` }}
+            ></div>
 
             <div className="order-1 md:order-2">
               <p className="text-xs md:text-sm tracking-widest mb-4 text-primary">
@@ -210,20 +247,21 @@ export default function Homepage() {
                 La nostra storia
               </h2>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed mb-6">
-                Nata dalla passione per la bellezza naturale e sostenibile, la
-                nostra startup unisce tradizione e innovazione. Ogni prodotto è
-                il risultato di anni di ricerca e dell'impegno a creare
-                cosmetici che rispettino la pelle e l'ambiente.
+                Nata per trasformare la ricerca scientifica in bellezza
+                sostenibile, AMAREA Cosmetics crea cosmetici naturali formulati
+                con ingredienti vegetali e attivi ottenuti tramite upcycling da
+                bioresidui agroalimentari. Grazie alla collaborazione con
+                l’Università Politecnica delle Marche, selezioniamo e validiamo
+                ogni ingrediente per garantire prodotti efficaci, sicuri e
+                rispettosi della pelle e dell’ambiente.
               </p>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed mb-8">
-                Crediamo che la vera bellezza nasca dalla cura di sé con
-                prodotti puri, efficaci e rispettosi. La nostra missione è
-                rendere accessibile a tutti una cosmesi di lusso, etica e
-                sostenibile.
+                Crediamo in una cosmesi etica, innovativa e accessibile, dove
+                natura e scienza lavorano insieme per un benessere autentico.
               </p>
-              <button className="px-8 py-3 border-2 text-primary text-sm tracking-widest hover:text-white hover:bg-primary transition border-primary rounded-full">
+              {/* <button className="px-8 py-3 border-2 text-primary text-sm tracking-widest hover:text-white hover:bg-primary transition border-primary rounded-full">
                 SCOPRI DI PIÙ
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -260,7 +298,10 @@ export default function Homepage() {
           <p className="text-base md:text-lg font-sans mb-8 px-4">
             Ricevi consigli di bellezza, offerte esclusive e novità in anteprima
           </p>
-          <form onSubmit={handleSubmit} className="max-w-md mx-auto flex flex-col sm:flex-row gap-4 px-4">
+          <form
+            onSubmit={handleSubmit}
+            className="max-w-md mx-auto flex flex-col sm:flex-row gap-4 px-4"
+          >
             <input
               type="email"
               value={email}
@@ -278,7 +319,10 @@ export default function Homepage() {
           </form>
           <p className="text-sm text-neutral-700 font-sans mt-4 px-4">
             Iscrivendoti accetti la nostra{" "}
-            <a href="/privacy-policy" className="underline hover:text-primary transition">
+            <a
+              href="/privacy-policy"
+              className="underline hover:text-primary transition"
+            >
               Privacy Policy
             </a>
           </p>
