@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
-import logo from "../assets/images/logo-amarea.jpg";
+import logo from "../assets/images/AMAREA_LOGO_nero.png";
 
 function Navbar() {
   const location = useLocation();
@@ -11,16 +11,21 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center">
         {/* LEFT: Logo + brand */}
         <div className="flex items-center gap-2 w-1/3 relative">
-          <div className="w-16 absolute right-full top-1/2 -translate-y-1/2">
-            <img src={logo} alt="logo amarea cosmetics" />
-          </div>
 
-          <Link
+          <Link to="/">
+            <img 
+              src={logo}
+              alt="AMAREA Cosmetics" 
+              className="h-6 md:h-8"
+            />
+          </Link>
+
+          {/* <Link
             to="/"
             className="text-xl flex font-light tracking-wider text-primary"
           >
             AMAREA COSMETICS
-          </Link>
+          </Link> */}
         </div>
 
         {/* CENTER: Menu */}

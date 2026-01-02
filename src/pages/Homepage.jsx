@@ -6,13 +6,14 @@ import {
   Leaf,
   PawPrint,
   Recycle,
+  GraduationCap,
 } from "lucide-react";
 import heroBg from "../assets/images/pexels-yaroslav-shuraev-8514588.jpg";
 import beach from "../assets/images/spiaggia-portonovo.jpg";
 import faceCream from "../assets/images/face-cream.png";
 import chapStick from "../assets/images/chapstick.jpg";
 import creamJar from "../assets/images/cream-jar.jpg";
-import upCycle from "../assets/images/upcycle.png";
+import Carousel from "../components/Carousel";
 
 export default function Homepage() {
   const [email, setEmail] = useState("");
@@ -44,15 +45,11 @@ export default function Homepage() {
           <div className="mb-8">
             <Sparkles className="w-10 sm:w-12 h-10 sm:h-12 mx-auto mb-4 text-primary" />
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light mb-8 leading-tight">
-            Bellezza
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight">
+            Ispirati dalla natura
             <br />
-            <span>Naturale</span>
+            Arricchiti dalla scienza
           </h1>
-          <p className="text-base sm:text-lg md:text-xl mb-12 font-sans max-w-2xl mx-auto leading-relaxed px-4">
-            Cosmetici etici e naturali, pensati per il benessere della tua
-            pelle.
-          </p>
           {/* <button className="px-8 sm:px-10 py-3 sm:py-4 text-white text-sm tracking-widest hover:opacity-90 transition rounded-full bg-primary">
             SCOPRI LA COLLEZIONE
           </button> */}
@@ -112,38 +109,12 @@ export default function Homepage() {
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-            <div className="text-center px-4">
-              <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
-                <Leaf className="w-7 h-7 md:w-8 md:h-8 text-white" />
-              </div>
-              <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
-                100% Naturale
-              </h3>
-              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
-                Utilizziamo solo ingredienti naturali e biologici, selezionati
-                con cura per la loro purezza ed efficacia.
-              </p>
-            </div>
-
-            <div className="text-center px-4">
-              <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
-                <PawPrint className="w-7 h-7 md:w-8 md:h-8 text-white" />
-              </div>
-              <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
-                Cruelty Free
-              </h3>
-              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
-                Tutti i nostri prodotti sono certificati cruelty-free. Bellezza
-                senza compromessi etici.
-              </p>
-            </div>
-
             <div className="text-center px-4 sm:col-span-2 md:col-span-1">
               <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
                 <FlaskConical className="w-7 h-7 md:w-8 md:h-8 text-white" />
               </div>
               <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
-                Qualità Premium
+                Scienza
               </h3>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
                 Formulazioni naturali e innovative, frutto di ricerca
@@ -162,6 +133,32 @@ export default function Homepage() {
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
                 Trasformiamo i materiali di scarto in nuove risorse.
                 Sostenibilità senza sprechi.
+              </p>
+            </div>
+
+            <div className="text-center px-4">
+              <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
+                <Leaf className="w-7 h-7 md:w-8 md:h-8 text-white" />
+              </div>
+              <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
+                Ingredienti Botanici
+              </h3>
+              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
+                Utilizziamo solo ingredienti naturali e biologici, selezionati
+                con cura per la loro purezza ed efficacia.
+              </p>
+            </div>
+
+            <div className="text-center px-4">
+              <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-6 rounded-full flex items-center justify-center bg-primary">
+                <PawPrint className="w-7 h-7 md:w-8 md:h-8 text-white" />
+              </div>
+              <h3 className="text-lg md:text-xl mb-4 text-neutral-800">
+                Cruelty Free
+              </h3>
+              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed">
+                Tutti i nostri prodotti sono certificati cruelty-free. Bellezza
+                senza compromessi etici.
               </p>
             </div>
           </div>
@@ -194,7 +191,7 @@ export default function Homepage() {
               },
               {
                 name: "Catria",
-                desc: "una crema idratante che nutre e mantiene la pelle morbida",
+                desc: "Una crema idratante che nutre e mantiene la pelle morbida",
                 img: creamJar,
               },
             ].map((product, idx) => (
@@ -267,30 +264,65 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
+      {/* Team Section */}
       <section className="py-16 md:py-24 bg-bg">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="flex justify-center mb-6">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className="w-5 h-5 md:w-6 md:h-6 fill-current text-primary"
-              />
-            ))}
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12 md:mb-16">
+            <p className="text-xs md:text-sm tracking-widest mb-4 text-primary">
+              IL NOSTRO TEAM
+            </p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-neutral-800 px-4">
+              Esperti al servizio dell'innovazione
+            </h2>
+            <p className="text-base md:text-lg text-neutral-600 font-sans mt-6 max-w-3xl mx-auto px-4">
+              Un team di ricercatori altamente qualificati impegnati nello
+              sviluppo di formulazioni cosmetiche naturali ed ecosostenibili
+            </p>
           </div>
-          <blockquote className="text-xl md:text-2xl lg:text-3xl font-light text-neutral-800 mb-8 leading-relaxed px-4">
-            "Questi prodotti hanno trasformato la mia routine di bellezza. La
-            mia pelle non è mai stata così luminosa e sana. Adoro sapere che sto
-            usando cosmetici naturali e sostenibili."
-          </blockquote>
-          <p className="text-xs md:text-sm tracking-widest text-primary">
-            — SOFIA M.
+          <Carousel />
+        </div>
+      </section>
+
+      {/* Collaboration Section */}
+      <section className="py-16 md:py-24 bg-secondary text-black">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="mb-6">
+            <GraduationCap className="w-12 h-12 md:w-16 md:h-16 mx-auto text-primary" />
+          </div>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light mb-6 px-4">
+            Collabora con noi
+          </h2>
+          <p className="text-base md:text-lg font-sans mb-4 px-4 leading-relaxed">
+            Sei un ricercatore, un'università o un'azienda interessata a
+            progetti di ricerca nel campo della cosmesi naturale e sostenibile?
+          </p>
+          <p className="text-base md:text-lg font-sans mb-10 px-4 leading-relaxed">
+            Il team di <strong>AMAREA Cosmetics</strong> è sempre aperto a nuove
+            collaborazioni scientifiche per sviluppare formulazioni innovative
+            basate su ingredienti naturali e processi di upcycling.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
+            <a
+              href="mailto:info@amareacosmetics.it?subject=Richiesta%20Collaborazione%20Scientifica"
+              className="px-10 py-4 border-2 border-primary text-primary text-sm tracking-widest rounded-full hover:bg-primary hover:text-white transition"
+            >
+              CONTATTACI
+            </a>
+          </div>
+          <p className="text-sm text-neutral-700 font-sans mt-8 px-4">
+            Email:{" "}
+            <a
+              href="mailto:amareacosmetics@gmail.com"
+              className="text-primary hover:underline transition"
+            >
+              info@amareacosmetics.it
+            </a>
           </p>
         </div>
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-16 md:py-24 bg-secondary text-black">
+      {/* <section className="py-16 md:py-24 bg-secondary text-black">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light mb-6 px-4">
             Unisciti alla nostra community
@@ -327,7 +359,7 @@ export default function Homepage() {
             </a>
           </p>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
