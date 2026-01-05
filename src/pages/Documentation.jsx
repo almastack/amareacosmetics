@@ -60,7 +60,7 @@ export default function CompanyInfoContent() {
     },
     {
       name: "Dott.ssa Camilla Morresi",
-      email: "c.morresi@staff.univpm.it",
+      email: "camilla.morresi@amareacosmetics.it",
       role: "Post-doc e Docente",
       description:
         "Post-doc e docente con comprovata esperienza pluriennale nel campo della Biochimica, con focus sulla biochimica della nutrizione, stress ossidativo e malattie dismetaboliche. Titolare di plurimi assegni di ricerca, ha sviluppato significative competenze nella gestione di progetti di ricerca. L'attività di ricerca si è concretizzata in 23 pubblicazioni su riviste internazionali ad alto impatto.",

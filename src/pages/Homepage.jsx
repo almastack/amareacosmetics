@@ -42,9 +42,9 @@ export default function Homepage() {
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-4xl w-full my-12">
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <Sparkles className="w-10 sm:w-12 h-10 sm:h-12 mx-auto mb-4 text-primary" />
-          </div>
+          </div> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight">
             Ispirati dalla natura
             <br />
@@ -56,40 +56,37 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Spin-off UNIVPM Section */}
       <section className="py-16 md:py-20 bg-bg">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-light mb-2 text-primary">
-                98%
-              </div>
-              <p className="text-xs md:text-sm text-neutral-600 font-sans tracking-wide">
-                INGREDIENTI NATURALI
-              </p>
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+            {/* Logo UNIVPM */}
+            <div className="flex-shrink-0">
+              <img
+                src="/images/univpm-logo.png"
+                alt="Università Politecnica delle Marche"
+                className="h-24 md:h-32 w-auto"
+              />
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-light mb-2 text-primary">
-                15K+
-              </div>
-              <p className="text-xs md:text-sm text-neutral-600 font-sans tracking-wide">
-                CLIENTI FELICI
+
+            {/* Divider verticale - solo desktop */}
+            <div className="hidden md:block w-px h-24 bg-neutral-300"></div>
+
+            {/* Divider orizzontale - solo mobile */}
+            <div className="md:hidden w-24 h-px bg-neutral-300"></div>
+
+            {/* Testo */}
+            <div className="flex-1 text-center md:text-left">
+              <p className="text-xs md:text-sm tracking-widest mb-3 text-primary">
+                SPIN-OFF UNIVERSITARIO
               </p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-light mb-2 text-primary">
-                100%
-              </div>
-              <p className="text-xs md:text-sm text-neutral-600 font-sans tracking-wide">
-                CRUELTY FREE
-              </p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-light mb-2 text-primary">
-                5★
-              </div>
-              <p className="text-xs md:text-sm text-neutral-600 font-sans tracking-wide">
-                RECENSIONI
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-light mb-4 text-neutral-800 leading-tight">
+                Nato dalla ricerca dell'Università Politecnica delle Marche
+              </h2>
+              <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed max-w-2xl">
+                AMAREA Cosmetics è uno spin-off accademico che traduce
+                l'eccellenza della ricerca universitaria in prodotti cosmetici
+                innovativi e sostenibili.
               </p>
             </div>
           </div>
@@ -265,7 +262,7 @@ export default function Homepage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 md:py-24 bg-bg">
+      <section id="team" className="py-16 md:py-24 bg-bg">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12 md:mb-16">
             <p className="text-xs md:text-sm tracking-widest mb-4 text-primary">
