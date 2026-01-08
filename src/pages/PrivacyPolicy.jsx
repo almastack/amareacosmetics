@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
           {/* Introduzione */}
           <div className="mb-16">
             <p className="text-lg text-neutral-700 font-sans leading-relaxed mb-6">
-              AMAREA Cosmetics S.r.l. (di seguito "AMAREA" o "la Società") rispetta la privacy degli utenti 
+              AMAREA COSMETICS S.r.l. (di seguito "AMAREA" o "la Società") rispetta la privacy degli utenti 
               e si impegna a proteggere i dati personali in conformità con il Regolamento Generale sulla 
               Protezione dei Dati (GDPR - Regolamento UE 2016/679) e la normativa italiana applicabile.
             </p>
@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
             </div>
             <div className="bg-neutral-50 p-8 rounded-lg">
               <p className="text-neutral-700 font-sans leading-relaxed mb-4">
-                <strong>AMAREA Cosmetics S.r.l.</strong>
+                <strong>AMAREA COSMETICS S.r.l.</strong>
               </p>
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
                 Sede legale: Via Brecce Bianche, snc - 60131 Ancona (AN) - DiSVA
@@ -295,7 +295,7 @@ export default function PrivacyPolicy() {
                 dei tuoi dati personali, puoi contattarci:
               </p>
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
-                <strong>AMAREA Cosmetics S.r.l.</strong>
+                <strong>AMAREA COSMETICS S.r.l.</strong>
               </p>
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
                 Via Brecce Bianche, snc - 60131 Ancona (AN) - DiSVA

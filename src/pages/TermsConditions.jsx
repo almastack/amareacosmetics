@@ -12,7 +12,7 @@ export default function TermsConditions() {
             Termini e Condizioni d'Uso
           </h1>
           <p className="text-lg text-neutral-600 font-sans">
-            Condizioni generali di utilizzo del sito web AMAREA Cosmetics
+            Condizioni generali di utilizzo del sito web AMAREA COSMETICS
           </p>
           <p className="text-sm text-neutral-500 font-sans mt-4">
             Ultimo aggiornamento: Ottobre 2025
@@ -27,7 +27,7 @@ export default function TermsConditions() {
           {/* Introduzione */}
           <div className="mb-16">
             <p className="text-lg text-neutral-700 font-sans leading-relaxed mb-6">
-              Benvenuto sul sito web di <strong>AMAREA Cosmetics S.r.l.</strong> (di seguito "AMAREA", "noi" o "nostro"). 
+              Benvenuto sul sito web di <strong>AMAREA COSMETICS S.r.l.</strong> (di seguito "AMAREA", "noi" o "nostro"). 
               L'utilizzo di questo sito è soggetto ai seguenti Termini e Condizioni d'Uso. 
               Accedendo e utilizzando questo sito, accetti integralmente le presenti condizioni.
             </p>
@@ -47,7 +47,7 @@ export default function TermsConditions() {
             </div>
             <div className="bg-neutral-50 p-8 rounded-lg">
               <p className="text-neutral-700 font-sans leading-relaxed mb-4">
-                <strong>AMAREA Cosmetics S.r.l.</strong>
+                <strong>AMAREA COSMETICS S.r.l.</strong>
               </p>
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
                 Sede legale: Via Brecce Bianche, snc - 60131 Ancona (AN) - DiSVA
@@ -65,12 +65,12 @@ export default function TermsConditions() {
           <div className="mb-16">
             <h2 className="text-3xl font-light text-neutral-800 mb-6">2. Oggetto</h2>
             <p className="text-neutral-700 font-sans leading-relaxed mb-4">
-              I presenti Termini e Condizioni regolano l'accesso e l'utilizzo del sito web di AMAREA Cosmetics, 
+              I presenti Termini e Condizioni regolano l'accesso e l'utilizzo del sito web di AMAREA COSMETICS, 
               inclusi tutti i contenuti, le informazioni e le funzionalità messi a disposizione.
             </p>
             <p className="text-neutral-700 font-sans leading-relaxed mb-4">
               Il sito ha <strong>esclusivamente finalità informativa e promozionale</strong> riguardo ai prodotti 
-              cosmetici naturali ed ecosostenibili sviluppati da AMAREA Cosmetics.
+              cosmetici naturali ed ecosostenibili sviluppati da AMAREA COSMETICS.
             </p>
             <div className="bg-neutral-50 p-6 rounded-lg border-l-4 border-primary">
               <p className="text-neutral-700 font-sans leading-relaxed">
@@ -147,7 +147,7 @@ export default function TermsConditions() {
             <h2 className="text-3xl font-light text-neutral-800 mb-6">5. Proprietà Intellettuale</h2>
             <p className="text-neutral-700 font-sans leading-relaxed mb-4">
               Tutti i contenuti presenti sul sito, inclusi ma non limitati a testi, immagini, grafica, loghi, 
-              icone, fotografie, video, software e codice, sono di proprietà esclusiva di AMAREA Cosmetics o 
+              icone, fotografie, video, software e codice, sono di proprietà esclusiva di AMAREA COSMETICS o 
               dei rispettivi proprietari e sono protetti dalle leggi italiane e internazionali sul diritto d'autore 
               e sulla proprietà intellettuale.
             </p>
@@ -157,7 +157,7 @@ export default function TermsConditions() {
             </p>
             <div className="bg-neutral-50 p-6 rounded-lg">
               <p className="text-neutral-700 font-sans leading-relaxed">
-                <strong>Marchi registrati:</strong> Il nome "AMAREA" e il logo associato sono marchi di AMAREA Cosmetics S.r.l. 
+                <strong>Marchi registrati:</strong> Il nome "AMAREA" e il logo associato sono marchi di AMAREA COSMETICS S.r.l. 
                 L'uso non autorizzato di tali marchi è severamente vietato.
               </p>
             </div>
@@ -273,7 +273,7 @@ export default function TermsConditions() {
             </p>
             <div className="bg-neutral-50 p-8 rounded-lg">
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
-                <strong>AMAREA Cosmetics S.r.l.</strong>
+                <strong>AMAREA COSMETICS S.r.l.</strong>
               </p>
               <p className="text-neutral-700 font-sans leading-relaxed mb-2">
                 Via Brecce Bianche, snc - 60131 Ancona (AN) - DiSVA

@@ -8,7 +8,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           <div>
-            <img src={logo} alt="AMAREA Cosmetics" className="h-8 mb-4" />
+            <img src={logo} alt="AMAREA COSMETICS" className="h-8 mb-4" />
             <p className="text-neutral-400 font-sans text-sm leading-relaxed mb-4">
               Cosmetici naturali di lusso per la tua bellezza autentica.
             </p>
@@ -49,7 +49,7 @@ function Footer() {
             <Link to="privacy-policy">Privacy Policy</Link>
             <Link to="terms-conditions">Termini e Condizioni D'uso</Link>
           </div>
-          <p>© 2026 AMAREA Cosmetics S.r.l. Tutti i diritti riservati.</p>
+          <p>© 2026 AMAREA COSMETICS S.r.l. Tutti i diritti riservati.</p>
         </div>
       </div>
     </footer>

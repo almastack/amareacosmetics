@@ -102,7 +102,7 @@ export default function CompanyInfoContent() {
       <section className="pt-32 pb-24 bg-gradient-to-br from-neutral-100 to-neutral-200">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-6xl font-light mb-6 text-neutral-800">
-            AMAREA Cosmetics S.r.l.
+            AMAREA COSMETICS S.r.l.
           </h1>
           <div className="w-24 h-1 mx-auto mb-8 bg-primary"></div>
           <p className="text-xl text-neutral-600 font-sans">
@@ -159,7 +159,7 @@ export default function CompanyInfoContent() {
                 </h2>
                 <div className="text-neutral-700 font-sans leading-relaxed">
                   <p>
-                    AMAREA Cosmetics si occupa della{" "}
+                    AMAREA COSMETICS si occupa della{" "}
                     <strong>
                       ricerca, sviluppo e produzione di cosmetici naturali ed
                       ecosostenibili
@@ -223,8 +223,7 @@ export default function CompanyInfoContent() {
                       Le spese di ricerca e sviluppo riguardano consulenze
                       scientifiche, materiali di laboratorio, test di efficacia
                       e sicurezza, studi analitici e attività di progettazione e
-                      sviluppo di
-                      <strong> packaging ecosostenibile</strong>.
+                      sviluppo dipackaging ecosostenibile.
                     </p>
                   </div>
                 </div>
@@ -316,7 +315,7 @@ export default function CompanyInfoContent() {
                     </div>
                   </div>
                   <p className="text-neutral-700 font-sans leading-relaxed">
-                    AMAREA Cosmetics intrattiene{" "}
+                    AMAREA COSMETICS intrattiene{" "}
                     <strong>relazioni professionali e di collaborazione</strong>{" "}
                     con l'Università Politecnica delle Marche, dove vengono
                     svolte le principali attività di ricerca e sviluppo dei

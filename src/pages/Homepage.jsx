@@ -46,9 +46,9 @@ export default function Homepage() {
             <Sparkles className="w-10 sm:w-12 h-10 sm:h-12 mx-auto mb-4 text-primary" />
           </div> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight">
-            Ispirati dalla natura
+            Ispirata dalla natura
             <br />
-            Arricchiti dalla scienza
+            arricchita dalla scienza
           </h1>
           {/* <button className="px-8 sm:px-10 py-3 sm:py-4 text-white text-sm tracking-widest hover:opacity-90 transition rounded-full bg-primary">
             SCOPRI LA COLLEZIONE
@@ -84,7 +84,7 @@ export default function Homepage() {
                 Nato dalla ricerca dell'Università Politecnica delle Marche
               </h2>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed max-w-2xl">
-                AMAREA Cosmetics è uno spin-off accademico che traduce
+                AMAREA COSMETICS è uno spin-off accademico che traduce
                 l'eccellenza della ricerca universitaria in prodotti cosmetici
                 innovativi e sostenibili.
               </p>
@@ -242,9 +242,9 @@ export default function Homepage() {
               </h2>
               <p className="text-sm md:text-base text-neutral-600 font-sans leading-relaxed mb-6">
                 Nata per trasformare la ricerca scientifica in bellezza
-                sostenibile, AMAREA Cosmetics crea cosmetici naturali formulati
+                sostenibile, AMAREA COSMETICS crea cosmetici naturali formulati
                 con ingredienti vegetali e attivi ottenuti tramite upcycling da
-                bioresidui agroalimentari. Grazie alla collaborazione con
+                bioresidui agroalimentari del territorio marchigiano. Grazie alla collaborazione con
                 l’Università Politecnica delle Marche, selezioniamo e validiamo
                 ogni ingrediente per garantire prodotti efficaci, sicuri e
                 rispettosi della pelle e dell’ambiente.
@@ -294,7 +294,7 @@ export default function Homepage() {
             progetti di ricerca nel campo della cosmesi naturale e sostenibile?
           </p>
           <p className="text-base md:text-lg font-sans mb-10 px-4 leading-relaxed">
-            Il team di <strong>AMAREA Cosmetics</strong> è sempre aperto a nuove
+            Il team di <strong>AMAREA COSMETICS</strong> è sempre aperto a nuove
             collaborazioni scientifiche per sviluppare formulazioni innovative
             basate su ingredienti naturali e processi di upcycling.
           </p>
