@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-import {
-  Star,
-  FlaskConical,
-  Sparkles,
-=======
 import { useState } from "react";
 import {
   FlaskConical,
->>>>>>> 29718a6cfd0cec42224f0a552814608afccc0f83
   Leaf,
   PawPrint,
   Recycle,
