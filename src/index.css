@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+/* 🌸 Soft & Elegant
+   - primary: lilla chiaro
+   - secondary: rosa cipria
+   - accent: oro chiaro
+   - bg: bianco caldo
+   - text: grigio antracite
+*/
+/* @theme {
+  --color-primary: #D7C6E6;
+  --color-secondary: #fce8de;
+  --color-accent: #E5C07B;
+  --color-bg: #FAF8F6;
+  --color-text: #3B3B3B;
+} */
+
+/* 💐 Natural & Fresh
+   - primary: lilla chiaro
+   - secondary: verde salvia
+   - accent: beige rosato
+   - bg: bianco avorio
+   - text: marrone tenue
+*/
+/* @theme {
+  --color-primary: #9b85b1;
+  --color-secondary: #BFD8d8;
+  --color-accent: #EFD9CE;
+  --color-bg: #FBFAF7;
+  --color-text: #4C3A32;
+} */
+
+/* 🌿 Modern & Clean
+   - primary: lilla chiaro
+   - secondary: grigio tortora
+   - accent: rosa polvere
+   - bg: bianco puro
+   - text: grigio scuro
+   #e6e6e6
+   #d9d9d9
+*/
+@theme {
+  --color-primary: #aa6cbd;
+  --color-secondary: #e4e4e4;
+  --color-accent: #E8C5C9;
+  --color-bg: #FFFFFF;
+  --color-text: #2F2F2F;
+
+  --background-image-hero: url('/assets/images/pexels-yaroslav-shuraev-8514588.jpg');
+}
+
+/* 💖 Blush & Cream — Calda e accogliente
+   - primary: rosa cipria
+   - secondary: panna calda
+   - accent: oro rosa tenue
+   - bg: bianco avorio
+   - text: marrone chiaro
+*/
+
+/* @theme {
+  --color-primary: #cfa4db;
+  --color-secondary: #f9eae1;
+  --color-accent: #ebc7b2;
+  --color-bg: #fffdfb;
+  --color-text: #5a4633;
+} */
+
+
+/* 🩵 Sky Serenity — Fresca e rilassante
+   - primary: azzurro polvere
+   - secondary: verde menta chiaro
+   - accent: lilla pallido
+   - bg: bianco ghiaccio
+   - text: grigio antracite
+*/
+/* @theme {
+  --color-primary: #D7C6E6;
+  --color-secondary: #D9F2E3;
+  --color-accent: #D9C8EB;
+  --color-bg: #FAFCFD;
+  --color-text: #2E2E2E;
+} */
+
+/* 🌷 Mauve Harmony — Elegante e sofisticata
+   - primary: malva chiaro
+   - secondary: rosa sabbia
+   - accent: lavanda
+   - bg: bianco rosato
+   - text: grigio grafite
+*/
+/* @theme {
+  --color-primary: #D8C2D1;
+  --color-secondary: #EED8D1;
+  --color-accent: #C9B7E3;
+  --color-bg: #FDF8FA;
+  --color-text: #3B3A40;
+} */
+
+/* 🪻 Lavender Mist — Fredda e rilassante
+   - primary: lilla pervinca
+   - secondary: azzurro lavanda
+   - accent: rosa polvere freddo
+   - bg: bianco perla
+   - text: grigio bluastro
+*/
+/* @theme {
+  --color-primary: #CBC4F0;
+  --color-secondary: #CFE0F7;
+  --color-accent: #E7C9E3;
+  --color-bg: #FCFBFE;
+  --color-text: #383A45;
+} */
