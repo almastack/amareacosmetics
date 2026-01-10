@@ -49,7 +49,12 @@ function Footer() {
             <Link to="privacy-policy">Privacy Policy</Link>
             <Link to="terms-conditions">Termini e Condizioni D'uso</Link>
           </div>
-          <p>© 2026 AMAREA COSMETICS S.r.l. Tutti i diritti riservati.</p>
+          <p className="flex flex-col justify-center gap-4">
+            <span>© 2026 AMAREA COSMETICS S.r.l. Tutti i diritti riservati. </span>
+            <span>
+              Made with ❤️ by <a className="text-primary hover:underline" href="https://almastack.it" target="_blank">Almastack</a> - <a className="text-primary hover:underline" href="https://almastack.it" target="_blank">almastack.it</a>
+            </span>
+          </p>
         </div>
       </div>
     </footer>

@@ -110,3 +110,8 @@
   --color-bg: #FCFBFE;
   --color-text: #383A45;
 } */
+
+* {
+  /* Apply smooth scrolling to all elements */
+  scroll-behavior: smooth;
+}
