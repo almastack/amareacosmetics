@@ -44,7 +44,7 @@ export default function Homepage() {
             <Sparkles className="w-10 sm:w-12 h-10 sm:h-12 mx-auto mb-4 text-primary" />
           </div> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-8 leading-tight">
-            Ispirata dalla natura
+            Ispirata dalla natura,
             <br />
             arricchita dalla scienza
           </h1>
